@@ -1,0 +1,10 @@
+InfinityPotion
+
+InfinityPotion is a quality-of-life mod that allows infinite use of potions and certain consumables.  
+It reduces unnecessary resource consumption and removes the hassle of managing potions during combat or exploration.  
+
+Each infinite-use feature can be individually toggled through the configuration menu.
+
+This mod is server-side.
+
+https://github.com/DevNyanHa/InfinityPotion

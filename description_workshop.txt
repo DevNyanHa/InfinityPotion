@@ -1,0 +1,15 @@
+[h1]Infinity Potion[/h1]
+
+[url=https://discord.gg/XbxTxdf7jh]Discord[/url] [url=https://github.com/DevNyanHa/InfinityPotion]Github[/url]
+
+InfinityPotion is a quality-of-life server-side mod for Terraria that allows infinite use of potions and certain consumables!
+
+With this mod, you can:
+[olist]
+[*] Use potions without consuming them
+[*] Prevent certain consumables from decreasing in quantity
+[*] Customize which item types are affected (potions, summon items, ammo, etc.)
+[*] Toggle each infinite-use feature individually in the config menu
+[/olist]
+
+[b]This mod is server-side.[/b]

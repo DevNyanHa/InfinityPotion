@@ -1,0 +1,84 @@
+Configs: {
+	InfinityConfig: {
+		EnableInfinitePotions: {
+			Tooltip: ü��, ����, ���� ������ �پ���� �ʰ� �մϴ�.
+			Label: ���� ���� Ȱ��ȭ
+		}
+
+		DisplayName: Infinity Config
+
+		EnableInfinitePotions2: {
+			Tooltip: ü��, ����, ���� ������ �پ���� �ʰ� �մϴ�.
+			Label: InfinitySummon
+		}
+
+		EnableOther: {
+			Tooltip: ""
+			Label: Other
+		}
+
+		EnableSummon: {
+			Tooltip: ""
+			Label: Summon
+		}
+
+		EnablePotion: {
+			Tooltip: ""
+			Label: Potion
+		}
+
+		Headers: {
+			ItemFilter: Item Filter Header
+			Option: Option Header
+		}
+
+		EnableAmmo: {
+			Tooltip: ""
+			Label: Ammo
+		}
+
+		EnableTooltip: {
+			Label: ShowTooltip
+			Tooltip: ""
+		}
+	}
+
+	MainConfig: {
+		DisplayName: Main Config
+
+		Headers: {
+			ItemFilter: Item Filter Header
+			Option: Option Header
+		}
+
+		EnablePotion: {
+			Label: Potion
+			Tooltip: ""
+		}
+
+		EnableOther: {
+			Label: Other
+			Tooltip: ""
+		}
+
+		EnableTooltip: {
+			Label: ShowTooltip
+			Tooltip: ""
+		}
+
+		Potion: {
+			Label: Potion
+			Tooltip: ""
+		}
+
+		Other: {
+			Label: Other
+			Tooltip: ""
+		}
+
+		ShowTooltip: {
+			Label: Show Tooltip
+			Tooltip: ""
+		}
+	}
+}
