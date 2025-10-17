@@ -3,7 +3,7 @@
 [hr][/hr]
 
 [h2]Infinity Potion [BETA][/h2]
-[img]https://img.shields.io/badge/Github-DevNyanHa-white?logo=github[/img] [img]https://img.shields.io/github/v/release/DevNyanHa/InfinityPotion[/img] [img]https://img.shields.io/github/license/DevNyanHa/InfinityPotion[/img]
+[url=https://discord.gg/XbxTxdf7jh][img]https://img.shields.io/badge/Discord-black?logo=discord[/img][/url] [url=https://github.com/DevNyanHa/InfinityPotion][img]https://img.shields.io/badge/Github-DevNyanHa-white?logo=github[/img][/url] [img]https://img.shields.io/github/v/release/DevNyanHa/InfinityPotion[/img] [img]https://img.shields.io/github/license/DevNyanHa/InfinityPotion[/img]
 This mod makes all [b]consumable items[/b]-such as potions, boss summoning items, and ammo-[b]unlimited[/b].
 If you want to [b]change the mod settings[/b], you can [b]easily[/b] do so at [u]Settings ¡æ Mod Settings ¡æ InfinityPotion ¡æ Main Config[/u].
 
