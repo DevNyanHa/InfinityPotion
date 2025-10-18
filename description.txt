@@ -1,7 +1,7 @@
 Infinity Potion [BETA]
 
 This mod makes all consumable items-such as potions, boss summoning items, and ammo-unlimited.
-If you want to [b]change the mod settings[/b], you can [b]easily[/b] do so at [Settings->Mod Settings->InfinityPotion->Main Config].
+If you want to change the mod settings, you can easily do so at [Settings->Mod Settings->InfinityPotion->Main Config].
 
 Features
 - You can use it without any crafting hassle-as long as you have just one consumable item
