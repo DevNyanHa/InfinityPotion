@@ -1,9 +1,13 @@
-InfinityPotion
+Infinity Potion [BETA]
 
-InfinityPotion is a quality-of-life mod that allows infinite use of potions and certain consumables.  
-It reduces unnecessary resource consumption and removes the hassle of managing potions during combat or exploration.  
+This mod makes all consumable items-such as potions, boss summoning items, and ammo-unlimited.
+If you want to [b]change the mod settings[/b], you can [b]easily[/b] do so at [Settings->Mod Settings->InfinityPotion->Main Config].
 
-Each infinite-use feature can be individually toggled through the configuration menu.
+Features
+- You can use it without any crafting hassle-as long as you have just one consumable item
+- All consumable items, including potions, summoning items, and ammo, can be used infinitely.
+- You can customize which items are affected in the settings.
+- Items with the [Infinity] tag in their description can be easily identified.
 
 This mod is server-side.
 

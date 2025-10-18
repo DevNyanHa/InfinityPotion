@@ -1,8 +1,8 @@
+using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
-using Terraria.ID;
-using Microsoft.Xna.Framework;
 
 namespace InfinityPotion
 {
@@ -12,18 +12,20 @@ namespace InfinityPotion
         {
             var config = ModContent.GetInstance<MainConfig>();
 
-            bool isInfinite = false;
-
-            if (config.Potion && (item.buffType > 0 || item.healLife > 0 || item.healMana > 0))
-                isInfinite = true;
-            if (config.Other)
-                isInfinite = true;
-
-            if (isInfinite)
+            if (InfinityPotion.getItemType(item)!=ItemType.NotConsume)
             {
                 TooltipLine line = new TooltipLine(Mod, "InfinityTooptip", "[Infinity]");
-                line.OverrideColor = new Color(105, 105, 105);
-                tooltips.Add(line);
+                Color color;
+                {
+                    float t = (float)(Math.Sin(Main.GlobalTimeWrappedHourly * 1.5) * 0.5 + 0.5);
+
+                    color = Color.Lerp(Color.DarkOrchid, Color.DarkSlateBlue, t);
+                    color = Color.Lerp(color, Color.Fuchsia, t / 5);
+                    color = Color.Lerp(color, Color.Black, 0.1f);
+
+                    line.OverrideColor = color;
+                }
+                tooltips.Insert(1, line);
             }
         }
     }

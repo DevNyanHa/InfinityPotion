@@ -1,7 +1,5 @@
 using System.ComponentModel;
-using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
-using Microsoft.Xna.Framework;
 
 namespace InfinityPotion
 {
@@ -12,11 +10,15 @@ namespace InfinityPotion
 
         //RGB -- https://github.com/CalamityTeam/CalamityModPublic
 
-        [Header("ItemFilter")]
+        [Header("InfinityItem")]
 
         [BackgroundColor(192, 54, 64, 192)]
         [DefaultValue(true)]
         public bool Potion { get; set; }
+
+        [BackgroundColor(192, 54, 64, 192)]
+        [DefaultValue(false)]
+        public bool Ammo { get; set; }
 
         [BackgroundColor(192, 54, 64, 192)]
         [DefaultValue(false)]

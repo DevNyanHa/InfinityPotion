@@ -1,5 +1,5 @@
 displayName = InfinityPotion
 author = DevNyanHa
-version = 1.0.8
+version = 1.0.9
 homepage = https://discord.gg/XbxTxdf7jh
 buildIgnore = .git\*, bin\*, Properties\*, .vs\*

@@ -1,83 +1,29 @@
 Configs: {
-	InfinityConfig: {
-		EnableInfinitePotions: {
-			Tooltip: ü��, ����, ���� ������ �پ���� �ʰ� �մϴ�.
-			Label: ���� ���� Ȱ��ȭ
-		}
-
-		DisplayName: Infinity Config
-
-		EnableInfinitePotions2: {
-			Tooltip: ü��, ����, ���� ������ �پ���� �ʰ� �մϴ�.
-			Label: InfinitySummon
-		}
-
-		EnableOther: {
-			Tooltip: ""
-			Label: Other
-		}
-
-		EnableSummon: {
-			Tooltip: ""
-			Label: Summon
-		}
-
-		EnablePotion: {
-			Tooltip: ""
-			Label: Potion
-		}
-
-		Headers: {
-			ItemFilter: Item Filter Header
-			Option: Option Header
-		}
-
-		EnableAmmo: {
-			Tooltip: ""
-			Label: Ammo
-		}
-
-		EnableTooltip: {
-			Label: ShowTooltip
-			Tooltip: ""
-		}
-	}
-
 	MainConfig: {
 		DisplayName: Main Config
 
 		Headers: {
-			ItemFilter: Item Filter Header
-			Option: Option Header
-		}
-
-		EnablePotion: {
-			Label: Potion
-			Tooltip: ""
-		}
-
-		EnableOther: {
-			Label: Other
-			Tooltip: ""
-		}
-
-		EnableTooltip: {
-			Label: ShowTooltip
-			Tooltip: ""
+			InfinityItem: Infinity Item
+			Option: Option
 		}
 
 		Potion: {
-			Label: Potion
+			Label: "[i:499] Potion"
 			Tooltip: ""
 		}
 
 		Other: {
-			Label: Other
-			Tooltip: ""
+			Label: "[i:4767] Other"
+			Tooltip: This option applies to all consumable items.
 		}
 
 		ShowTooltip: {
-			Label: Show Tooltip
+			Label: "[i:3617] Show Tooltip"
+			Tooltip: ""
+		}
+
+		Ammo: {
+			Label: "[i:930] Ammo"
 			Tooltip: ""
 		}
 	}
