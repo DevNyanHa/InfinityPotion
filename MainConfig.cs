@@ -22,6 +22,10 @@ namespace InfinityPotion
 
         [BackgroundColor(192, 54, 64, 192)]
         [DefaultValue(false)]
+        public bool Favorites { get; set; }
+
+        [BackgroundColor(192, 54, 64, 192)]
+        [DefaultValue(false)]
         public bool Other { get; set; }
 
         [Header("Option")]

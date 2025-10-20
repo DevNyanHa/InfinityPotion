@@ -8,6 +8,7 @@ namespace InfinityPotion
         Potion,
         Summon,
         Ammo,
+        Favorites,
         Other,
         NotConsume
     }
@@ -20,6 +21,9 @@ namespace InfinityPotion
 
             if (!item.consumable)
                 return ItemType.NotConsume;
+
+            if (config.Favorites)
+                return (item.favorited) ? ItemType.Favorites : ItemType.NotConsume;
 
             if (item.useStyle == Terraria.ID.ItemUseStyleID.DrinkLiquid)
                 return (config.Potion) ? ItemType.Potion : ItemType.NotConsume;

@@ -12,6 +12,16 @@ Configs: {
 			Tooltip: ""
 		}
 
+		Ammo: {
+			Label: "[i:930] Ammo"
+			Tooltip: ""
+		}
+
+		Favorites: {
+			Label: "[i:75] Favorites"
+			Tooltip: This option overrides the other options.
+		}
+
 		Other: {
 			Label: "[i:4767] Other"
 			Tooltip: This option applies to all consumable items.
@@ -19,11 +29,6 @@ Configs: {
 
 		ShowTooltip: {
 			Label: "[i:3617] Show Tooltip"
-			Tooltip: ""
-		}
-
-		Ammo: {
-			Label: "[i:930] Ammo"
 			Tooltip: ""
 		}
 	}
