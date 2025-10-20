@@ -1,4 +1,4 @@
-﻿## Infinity Potion [BETA]
+## Infinity Potion [BETA]
 
 [![Discord](https://img.shields.io/badge/Discord-black?logo=discord)](https://discord.gg/XbxTxdf7jh)
 [![Github](https://img.shields.io/badge/Github-DevNyanHa-white?logo=github)](https://github.com/DevNyanHa/InfinityPotion)

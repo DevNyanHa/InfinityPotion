@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InfinityPotion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dd561aa15a277f96517f65f65b8af6f7ddb5816")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a95fc275aaa934b14e9f988bd9057eb61c1fc12")]
 [assembly: System.Reflection.AssemblyProductAttribute("InfinityPotion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InfinityPotion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

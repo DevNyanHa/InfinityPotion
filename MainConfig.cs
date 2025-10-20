@@ -32,6 +32,6 @@ namespace InfinityPotion
 
         [BackgroundColor(192, 54, 64, 192)]
         [DefaultValue(true)]
-        public bool ShowTooltip { get; set; }
+        public bool ShowTooltip { get; set; }     
     }
 }
