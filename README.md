@@ -1,3 +1,7 @@
+<p align="center">
+<img src="./workshop/img-1.png" width="200">
+</p>
+
 ## Infinity Potion [BETA]
 
 [![Discord](https://img.shields.io/badge/Discord-black?logo=discord)](https://discord.gg/XbxTxdf7jh)
