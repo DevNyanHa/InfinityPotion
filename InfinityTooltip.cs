@@ -27,9 +27,6 @@ namespace InfinityPotion
                 }
                 tooltips.Insert(1, line);
             }
-
-            TooltipLine line2 = new TooltipLine(Mod, "InfinityPotionBy", item.consumable.ToString()+" / "+item.useStyle.ToString() + " / " + item.favorited.ToString());
-            tooltips.Add(line2);
         }
     }
 }
