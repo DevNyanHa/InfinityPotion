@@ -2,4 +2,4 @@ displayName = InfinityPotion
 author = DevNyanHa
 version = 1.0.16
 homepage = https://discord.gg/XbxTxdf7jh
-buildIgnore = .git\*, bin\*, Properties\*, .vs\*, .Build\*, .workshop\*
+buildIgnore = .git\*, bin\*, Properties\*, .vs\*, .Build\*, .workshop\*, obj\*

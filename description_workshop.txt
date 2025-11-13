@@ -14,7 +14,3 @@ If you want to [b]change the mod settings[/b], you can [b]easily[/b] do so at [u
 [*] You can [b]customize[/b] which items are affected in the settings.
 [*] Items with the [b][Infinity][/b] tag in their description can be easily [b]identified[/b].
 [/list]
-
-[hr][/hr]
-
-[b]This mod is server-side.[/b]

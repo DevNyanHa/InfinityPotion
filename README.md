@@ -19,5 +19,3 @@ If you want to **change the mod settings**, you can **easily** do so at
 - All consumable items, including potions, summoning items, and ammo, can be used **infinitely**.
 - You can **customize** which items are affected in the settings.
 - Items with the **[Infinity]** tag in their description can be easily **identified**.
-
-**This mod is server-side.**

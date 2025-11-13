@@ -9,6 +9,4 @@ Features
 - You can customize which items are affected in the settings.
 - Items with the [Infinity] tag in their description can be easily identified.
 
-This mod is server-side.
-
 https://github.com/DevNyanHa/InfinityPotion
