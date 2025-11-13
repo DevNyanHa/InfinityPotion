@@ -3,3 +3,5 @@
 
 .vs/
 Build/__pycache__/
+bin/
+obj/
