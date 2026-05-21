@@ -1,3 +1,9 @@
+> ⚠️ Warning<br>
+> Development of this project has been discontinued<br>
+> Please use Infinity Potion V2<br>
+> 이 프로젝트는 개발이 중단되었습니다<br>
+> Infinity Potion V2를 사용해주세요<br>
+
 <p align="center">
 <img src="./workshop/img-1.png" width="200">
 </p>
@@ -9,8 +15,8 @@
 ![GitHub Release](https://img.shields.io/github/v/release/DevNyanHa/InfinityPotion)
 ![License](https://img.shields.io/github/license/DevNyanHa/InfinityPotion)
 
-This mod makes all **consumable items** — such as potions, boss summoning items, and ammo — **unlimited**.  
-If you want to **change the mod settings**, you can **easily** do so at  
+This mod makes all **consumable items** — such as potions, boss summoning items, and ammo — **unlimited**.
+If you want to **change the mod settings**, you can **easily** do so at
 **Settings → Mod Settings → InfinityPotion → Main Config**.
 
 ## Features
