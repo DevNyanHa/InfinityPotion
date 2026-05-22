@@ -2,6 +2,10 @@
 > 이 모드는 개발중입니다 V1의 경고를 무시하고 V1을 사용해주세요<br>
 > This mod is under development. Please ignore the warnings of V1 and use V1.
 
+<p align="center">
+<img src="./ProjectAssets/img-1.png" width="200">
+</p>
+
 ## Infinity Potion V2
 
 [![Discord](https://img.shields.io/badge/Discord-black?logo=discord)](https://discord.gg/XbxTxdf7jh)
