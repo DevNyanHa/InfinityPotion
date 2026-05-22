@@ -1,1 +1,13 @@
-This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.
+[img]https://i.imgur.com/ki1CPZe.gif[/img]
+
+[hr][/hr]
+
+[h2]Infinity Potion V2[/h2]
+[url=https://discord.gg/XbxTxdf7jh][img]https://img.shields.io/badge/Discord-black?logo=discord[/img][/url] [url=https://github.com/DevNyanHa/InfinityPotion][img]https://img.shields.io/badge/Github-DevNyanHa-white?logo=github[/img][/url] [img]https://img.shields.io/github/v/release/DevNyanHa/InfinityPotion?branch=v2[/img] [img]https://img.shields.io/github/license/DevNyanHa/InfinityPotion[/img]
+This mod allows potions and consumable items to become infinite.
+
+[h2]Usage[/h2]
+[list]
+[*] Left-click a potion with 3996 or more stacks while pressing ` to make it infinite.
+[*] More detailed settings are available in the mod and control settings. Configure your preferred keybinds and options.
+[/list]

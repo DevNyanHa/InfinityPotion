@@ -1,1 +1,10 @@
-Modify this file with a description of your mod.
+Infinity Potion V2
+
+This mod allows potions and consumable items to become infinite.
+
+Usage
+- Left-click a potion with 3996 or more stacks while pressing ` to make it infinite.
+- More detailed settings are available in the mod and control settings. Configure your preferred keybinds and options.
+
+Warning
+- This is a cheat-oriented mod, and you are responsible for how you use it.
