@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\lis13\Documents\My Games\Terraria\tModLoader\ModSources\InfinifyPotionV2\.editorconfig" />
+	</ItemGroup>
+	<ItemGroup>
+	  <EmbeddedResource Include="Content\Items\INFIcon.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="C:\Users\lis13\Documents\My Games\Terraria\tModLoader\ModSources\InfinifyPotionV2\.editorconfig" />
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>

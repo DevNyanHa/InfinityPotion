@@ -1,0 +1,6 @@
+*.sln
+*.pyc
+
+.vs/
+bin/
+obj/

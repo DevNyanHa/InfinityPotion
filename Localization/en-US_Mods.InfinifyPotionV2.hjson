@@ -1,0 +1,13 @@
+Items: {
+	INFItem: {
+		DisplayName: I N F Item
+		Tooltip: ""
+	}
+
+	INFIcon: {
+		DisplayName: I N F Icon
+		Tooltip: ""
+	}
+}
+
+"Keybinds.Toggle Infinite Potion.DisplayName": Toggle  Infinite  Potion
