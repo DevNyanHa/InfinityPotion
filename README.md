@@ -17,6 +17,20 @@ If you want to **change the mod settings**, you can **easily** do so at
 
 ...
 
+## Mod Configuration
+### Infinity Item
+| Key | Type | Default |
+|-|-|-|
+| `Enabled` | `bool` | `true` |
+| `Type` | `Enum` | `select` |
+| `Minimum condition` | `int` | `3000` |
+| `Infinite Effect` | `bool` | `false` |
+### Decoration
+| Key | Type | Default |
+|-|-|-|
+| `Item Name Effect` | `bool` | `true` |
+| `Tooltip Decoration` | `bool` | `true` |
+| `Hide Item Stack` | `bool` | `false` |
 ## Code Dependency
 
 ```
