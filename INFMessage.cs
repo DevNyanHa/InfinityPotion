@@ -1,11 +1,11 @@
-﻿namespace InfinifyPotionV2;
-
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.IO;
+
+namespace InfinifyPotionV2;
 
 public class INFMessage : ModPlayer
 {

@@ -1,10 +1,6 @@
-namespace InfinifyPotionV2;
-
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
-using System;
-using Terraria;
 using Terraria.ModLoader;
+
+namespace InfinifyPotionV2;
 
 public class InfinifyPotionV2 : Mod
 {

@@ -1,12 +1,10 @@
-﻿using Humanizer;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using MonoMod.Cil;
-using MonoMod.RuntimeDetour;
 using Terraria;
+using Terraria.Audio;
+using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.UI;
 
 namespace InfinifyPotionV2.Systems;
 
@@ -14,6 +12,7 @@ public class INFCursor : ModSystem
 {
     public override void PostDrawInterface(SpriteBatch spriteBatch)
     {
+        if (!INFConfig.Config.Enabled) return;
         if (!((INFToggle.INFToggleKey?.Current ?? false)
         && Main.playerInventory)) return;
 
@@ -60,6 +59,8 @@ public class INFClick : ModPlayer
 {
     public override bool HoverSlot(Item[] inventory, int context, int slot)
     {
+        if (!INFConfig.Config.Enabled) return false;
+
         if (INFToggle.INFToggleKey == null || !INFToggle.INFToggleKey.Current) return false;
 
         if (!Main.mouseLeft || !Main.mouseLeftRelease) return true;
@@ -72,10 +73,13 @@ public class INFClick : ModPlayer
 
         if (clickedItem.TryGetGlobalItem(out INFState state))
         {
+            if (clickedItem.stack < INFConfig.Config.MinimumCondition && !state.INFEnabled) return true;
+
             state.INFEnabled = !state.INFEnabled;
 
             if (state.INFEnabled)
             {
+                SoundEngine.PlaySound(SoundID.DD2_DarkMageHealImpact, Player.Center);
                 state.INFStack = clickedItem.stack;
                 clickedItem.stack = 1;
             }

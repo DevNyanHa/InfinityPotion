@@ -11,3 +11,53 @@ Items: {
 }
 
 "Keybinds.Toggle Infinite Potion.DisplayName": Toggle  Infinite  Potion
+
+Configs: {
+	MainConfig: {
+		DisplayName: Main Config
+
+		ActivationMethod: {
+			Label: Activation Method
+			Tooltip: ""
+		}
+
+		MinimumCondition: {
+			Label: Minimum Condition
+			Tooltip: ""
+		}
+
+		Headers: {
+			InfinityItem: Infinity Item Header
+			Option: Option Header
+		}
+
+		Enabled: {
+			Label: Enabled
+			Tooltip: ""
+		}
+
+		InfiniteEffect: {
+			Label: Infinite Effect
+			Tooltip: ""
+		}
+
+		ShowTooltip: {
+			Label: Show Tooltip
+			Tooltip: ""
+		}
+	}
+
+	ActivationMethod: {
+		Tooltip: ""
+
+		Auto: {
+			Label: Auto
+			Tooltip: ""
+		}
+
+		Select: {
+			Label: Select
+			Tooltip: ""
+		}
+	}
+}

@@ -1,7 +1,3 @@
-> ⚠️ Warning<br>
-> 이 모드는 개발중입니다 V1의 경고를 무시하고 V1을 사용해주세요<br>
-> This mod is under development. Please ignore the warnings of V1 and use V1.
-
 <p align="center">
 <img src="./ProjectAssets/img-1.png" width="200">
 </p>
@@ -26,8 +22,8 @@ If you want to **change the mod settings**, you can **easily** do so at
 | Key | Type | Default |
 |-|-|-|
 | `Enabled` | `bool` | `true` |
-| `Type` | `Enum` | `select` |
-| `Minimum condition` | `int` | `3000` |
+| `Activation Method` | `Enum` | `select` |
+| `Minimum condition` | `int` | `3996` |
 | `Infinite Effect` | `bool` | `false` |
 ### Decoration
 | Key | Type | Default |

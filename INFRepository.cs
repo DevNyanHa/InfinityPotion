@@ -1,9 +1,8 @@
-﻿namespace InfinifyPotionV2;
-
-using Microsoft.Xna.Framework;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Terraria;
 using Terraria.ModLoader;
+
+namespace InfinifyPotionV2;
 
 public class INFRepository : ModSystem
 {
@@ -18,7 +17,19 @@ public class INFRepository : ModSystem
             Item item = new();
             item.SetDefaults(i);
 
-            if (item.buffType > 0 && item.consumable)
+            bool isBuffPotion =
+                item.buffType > 0 &&
+                item.consumable;
+
+            bool isHealPotion =
+                item.healLife > 0 &&
+                item.consumable;
+
+            bool isManaPotion =
+                item.healMana > 0 &&
+                item.consumable;
+
+            if (isBuffPotion || isHealPotion || isManaPotion)
             {
                 INFPotions.Add(i);
             }
