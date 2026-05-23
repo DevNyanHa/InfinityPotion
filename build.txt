@@ -1,5 +1,5 @@
 displayName = InfinityPotIon V2
 author = DevNyanHa
-version = 1.0.0
+version = 2.0.0
 homepage = https://github.com/DevNyanHa/InfinityPotion/tree/v2
 buildIgnore = .git\*, bin\*, Properties\*, .vs\*, .Build\*, obj\*, GithubAssets\*
